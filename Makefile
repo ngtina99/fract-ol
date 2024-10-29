@@ -42,7 +42,7 @@ $(LIBFT):
 
 $(NAME):	$(LIBFT) $(OBJ)
 	@echo $(BLUE) "*Compiling fract-ol*" $(EOC) $(GREEN) 
-	$(CC) $(SRC) $(INC) $(MLXFLAGS) $(LIBFT) $(CFLAGS) -o $(NAME)
+	$(CC) $(SRC) $(INC) $(MLXFLAGS) $(LIBFT) $(CFLAGS) -o $(NAME) - lm
 
 $(OBJ): ./src/fractol.h
 
